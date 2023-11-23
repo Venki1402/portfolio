@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav img{
+    margin-left: rem;
+    margin-right: 2rem;
+}
+
+header nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+}
+
+header nav div a{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav div a:hover{
+    color: #e8b63e;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+}
+
+.hero img{
+    height: 40rem;
+    width: 35rem;
+    border-radius: 50rem;
+}
+
+.hero div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 10rem ;
+}
+
+.hero h4{
+    color: rgb(90, 72, 181);
+    font-size: larger;
+    line-height: 3rem;
+}
+.hero h1{
+    font-size:4rem;
+}
+
+.hero button{
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 15rem;
+    color: white;
+    margin: 2rem;
+    transition: all 0.5s ease-in;
+}
+
+.hero button:hover{
+    cursor: pointer;
+    color: white;
+    color: black;
+    background-color: white;
+}
